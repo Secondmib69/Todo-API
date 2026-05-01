@@ -1,2 +1,3 @@
-simple Todo API
-docs : localhost:8000/api/docs
+simple Todo API with JWT authentication
+
+docs : http://localhost:8000/api/docs
