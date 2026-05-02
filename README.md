@@ -34,12 +34,11 @@ A robust To-Do list API built with Django REST Framework, featuring JWT cookie a
 ## Setup and Installation 🚀
 
 1.  **Clone the repository:**
-```bash
+```
 git clone https://github.com/Secondmib69/Todo-API.git
 cd Todo-API
 
 2. Create and activate a virtual environment:
-bash
 python -m venv venv
 # On Windows:
 # venv\Scripts\activate
@@ -47,23 +46,19 @@ python -m venv venv
 source venv/bin/activate
 
 3. Install dependencies:
-bash
 pip install -r requirements.txt
 
 4. Apply database migrations:
-bash
 python manage.py makemigrations
 python manage.py migrate
 
 5. Create a superuser:
-bash
 python manage.py createsuperuser
 
 *   When prompted, ensure `Is superuser? (yes/no)` is set to `yes`. This user will have full administrative access.
 *   Staff users and additional user roles can be managed via the Django Admin or API endpoints.
-Run the development server:
-bash
-6. python manage.py runserver
+6. Run the development server:
+python manage.py runserver
 ```
 API Endpoints & Documentation 📚
 The API is accessible at http://127.0.0.1:8000/api/docs.
